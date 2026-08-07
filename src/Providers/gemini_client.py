@@ -9,9 +9,9 @@ client = genai.Client(
 )
 
 def ask(prompt):
-    interaction = client.models.generate_content(
+    response = client.models.generate_content(
         model="gemini-3.6-flash",
         contents=prompt
     )
 
-    return interaction.text
+    return response.text

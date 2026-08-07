@@ -1,0 +1,6 @@
+openai
+google-genai
+groq
+python-dotenv
+openrouter
+rich
