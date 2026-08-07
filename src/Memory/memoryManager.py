@@ -1,7 +1,7 @@
 import json
 import os
 
-memoryPath = "Memory/temp.json"
+memoryPath = "src/Memory/temp.json"
 
 
 def loadMemory():

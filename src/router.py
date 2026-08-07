@@ -24,17 +24,28 @@ def ask(messages):
 
         "coding": [
             ("OpenRouter", openrouter.ask),
-            ("Groq", groq.ask),
+            ("Gemini", gemini.ask),
         ],
 
         "analysis": [
             ("Gemini", gemini.ask),
+            ("OpenRouter", openrouter.ask),
             ("OpenAI", openai.ask),
         ],
 
         "writing": [
             ("Gemini", gemini.ask),
             ("Groq", groq.ask),
+        ],
+
+        "modifying": [
+            ("OpenRouter", openrouter.ask),
+            ("Gemini", gemini.ask),
+        ],
+
+        "formatting": [
+            ("Groq", groq.ask),
+            ("Gemini", gemini.ask),
         ],
     }
 

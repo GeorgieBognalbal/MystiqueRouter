@@ -29,11 +29,14 @@ def requestClassifier(prompt):
 
                     Classify the user's request into ONLY 1:
 
-                    writing
-                    coding
-                    chat
+                    - writing
+                    - coding
+                    - chat
+                    - analysis
+                    - modifying
+                    - formatting
 
-                    STRICT RULE: RETURN ONLY ONE WORD.
+                    STRICT RULE: RETURN ONLY ONE WORD EXACTLY AS IT IS.
                 """
             },
             {
