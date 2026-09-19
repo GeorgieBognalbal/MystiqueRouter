@@ -17,60 +17,6 @@ Mystique uses:
 
 ---
 
-# Features
-
-- Multi-AI provider support
-- Automatic request classification
-- Intelligent AI routing
-- Provider fallback system
-- Conversation memory
-- Context formatting
-- Rich terminal interface
-
----
-
-# Architecture
-
-```
-Mystique/
-│
-├── src/
-│   │
-│   ├── Memory/
-│   │   ├── memoryManager.py
-│   │   └── Formatter.py
-│   │
-│   ├── Providers/
-│   │   ├── openai_client.py
-│   │   ├── gemini_client.py
-│   │   ├── groq_client.py
-│   │   └── openrouter_client.py
-│   │
-│   ├── Utils/
-│   │   └── terminal.py
-│   │
-│   └── router.py
-│   
-│
-├── requirements.txt
-├── .env
-├── README.md
-└── main.py
-```
-
----
-
-# AI Providers
-
-| Category | Primary | Fallback |
-|---|---|---|
-| Chat | Groq | OpenAI |
-| Coding | OpenRouter | Groq |
-| Analysis | Gemini | OpenAI |
-| Writing | Gemini | Groq |
-
----
-
 # Installation
 
 Clone the repository:
@@ -137,32 +83,4 @@ google-genai
 groq
 python-dotenv
 rich
-```
-
----
-
-# Version History
-
-## v1.5
-
-Added:
-- Groq integration
-- OpenRouter integration
-- Rich terminal interface
-- Improved project architecture
-
----
-
-# Status
-
-Current Version:
-
-```
-Mystique v1.5
-```
-
-Status:
-
-```
-Active Development
 ```
